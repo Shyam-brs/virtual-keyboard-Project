@@ -1,10 +1,3 @@
-<!--
-     Author: Build Rise Shine with Nyros (BRS) 
-     Created: 2023 
-     Library / Component: Home Page
-     Description: Main page  for the app
-     (c) Copyright by BRS with Nyros. 
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
     <title>Virtual Keyboard | Javascript</title>
+    <link rel="icon" href="assets/img/keyboard-logo.jpg">
     <link rel="icon" href="http://203.193.173.125/buildriseshine/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -25,27 +19,9 @@
   </head>
   <body>
     <header>
-      <div class="d-flex bg-gradient">
-        <div class="d-flex flex-grow-1">
-          <nav class="courseTitle">
-            <button class="navbar-brand border-0">
-              <img src="assets/img/logo.png" alt="logo" />
-            </button>
-          </nav>
-          <div class="flex-grow-1">
-            <div class="ReactTitle ps-3 d-flex align-items-center">
-              <img src="assets/img/logo-javascript@2x.png" alt="logo" />
-              <h3 class="mb-0">JS Basic Apps</h3>
-            </div>
-            <div class="d-flex ps-3 align-items-center">
-              <div class="flex-grow-1">
-                <h4>Virtual Keyboard</h4>
-                <p class="pb-0 mb-3 text-start">Purpose: Experience Virtual Keyboard which you might experience while online banking.</p>
-                <p class="pb-0 mt-0 text-start"><a href="https://github.com/brs-studio/js-basics/tree/main/virtual-keyboard" target="_blank" >Git Repository</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="git">
+        <h1>VIRTUAL-KEYBOARD</h1>
+        <a href="https://github.com/Shyam-brs/virtual-keyboard-Project"><button class="btn">Git-Repo</button></a>
       </div>
     </header>
 
@@ -125,8 +101,7 @@
     </main>
 
     <footer class="footer footer-dark">
-      <div class="d-flex justify-content-between px-5">
-        <div>ALL RIGHTS RESERVED BRS STUDIO, INDIA</div>
+      <div class="d-flex justify-content-center px-5">
         <div>
           <button
             onclick="setTheme('#3CC89E')"
@@ -140,9 +115,6 @@
             onclick="setTheme('#FEAD06')"
             class="theme-switch theme-switch-yellow_sea"
           ></button>
-        </div>
-        <div>
-          <img src="assets/img/footer-logo.png" alt="logo" />
         </div>
       </div>
     </footer>
