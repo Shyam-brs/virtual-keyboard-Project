@@ -1,10 +1,4 @@
-/** 
-Author:    Build Rise Shine with Nyros (BRS) 
-Created:   2023
-Library / Component: Script file
-Description: Virtual Keyboard
-(c) Copyright by BRS with Nyros. 
-**/
+
 
 // DOM Elements
 const keys = document.querySelectorAll(".keys");
